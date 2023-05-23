@@ -1,0 +1,36 @@
+.title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.list {
+    max-width: 531px;
+}
+
+.item {
+    padding-left: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    color: #333333;
+    position: relative;
+}
+
+.item::before {
+    color: #B7280F;
+    /* UTF-8 escape sequence, соответствующая символу "Маркер списка" */
+    content:"\2022";
+    /* Делаем больше, чем основной текст в li */
+    font-size: 20px;
+    font-weight: 700;
+    /* Элемент вырван из потока, выравниваем отрицательным отступом */
+    left: -3px;
+    /* Высота строки и позиционирование необходимы для выравнивания по вертикали */
+    line-height: 16px;        
+    position: absolute;
+    top: 7px;
+}

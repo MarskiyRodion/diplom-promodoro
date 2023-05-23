@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputTask {
+    border: none;
+    width: 370px;
+    padding: 19px 15px 19px 15px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17px;
+    background-color: #F4F4F4;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.btnAppend {
+    width: 173px;
+    padding: 19px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    background: #A8B64F;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}

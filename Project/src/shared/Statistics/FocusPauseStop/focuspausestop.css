@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 35px 35px 25px;
+    width: 405px;
+    background-color: #F4F4F4;
+}
+
+.boxFosusActive {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 35px 35px 25px;
+    width: 405px;
+    background-color: #FFDDA9;
+}
+
+.iconFocuseActive path {
+    stroke: #FFAE35;
+}
+
+.boxPauseActive {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 35px 35px 25px;
+    width: 405px;
+    background-color: #DFDCFE;
+}
+
+.iconPauseActive path {
+    stroke: #9C97D7 
+}
+
+.boxStopActive {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 35px 35px 25px;
+    width: 405px;
+    background-color: #C5F1FF;
+}
+
+.iconStopActive path {
+    stroke: #7FC2D7;
+}
+
+.textNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.number {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+    color: #333333;
+}

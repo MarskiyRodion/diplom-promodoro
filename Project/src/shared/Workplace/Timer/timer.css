@@ -1,0 +1,158 @@
+.container {
+    width: 733px;
+    height: 507px;
+    background-color: #F4F4F4;
+}
+
+.timerHeader {
+    margin-bottom: 40px;
+    padding: 19px 40px 19px 40px;
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timerHeaderStart {
+    margin-bottom: 40px;
+    padding: 19px 40px 19px 40px;
+    background-color: #DC3E22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timerHeaderBreak {
+    margin-bottom: 40px;
+    padding: 19px 40px 19px 40px;
+    background-color: #A8B64F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subtitle {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.pomidors {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeTimer {
+    display: flex;
+    align-items: center;
+    margin-left: 92px;
+}
+
+.time {
+    margin: 0;
+    margin-right: 25px;
+    font-weight: 200;
+    font-size: 150px;
+    line-height: 179px;
+    color: #333333;
+}
+
+.timeRun {
+    margin: 0;
+    margin-right: 25px;
+    font-weight: 200;
+    font-size: 150px;
+    line-height: 179px;
+    color: #DC3E22;
+}
+
+.timeBreak {
+    margin: 0;
+    margin-right: 25px;
+    font-weight: 200;
+    font-size: 150px;
+    line-height: 179px;
+    color: #A8B64F;
+}
+
+.timeBtn {
+    cursor: pointer;
+}
+
+.taskAndNumber {
+    margin: 0;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.number {
+    color: #999999;
+}
+
+.start {
+    margin-right: 25px;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 19px 50px;
+    background-color: #A8B64F;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.stopDisabled {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 19px 50px;
+    border: 2px solid #C4C4C4;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.stop {
+    padding: 0;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    padding: 19px 50px;
+    border: 2px solid #DC3E22;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #DC3E22;
+}
+
+.stop:hover {
+    background-color: #DC3E22;
+    color: white; 
+}

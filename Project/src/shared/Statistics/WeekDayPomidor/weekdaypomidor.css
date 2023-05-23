@@ -1,0 +1,169 @@
+.container {
+    display: grid;
+    height: 471px;
+    grid-template-areas:
+        "A B B B B B B B B B"
+        "A B B B B B B B B B"
+        "A B B B B B B B B B"
+        "A B B B B B B B B B"
+        "C B B B B B B B B B";
+    gap: 32px;
+}
+
+.day {
+    padding: 25px 0px 0px 25px;
+    grid-area: A;
+    background-color: #F4F4F4;
+}
+
+.pomidor {
+    position: relative;
+    grid-area: C;
+    padding-top: 37px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+}
+
+.pomidorTrue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.pomidorsQuantity {
+    margin: 0;
+    padding: 0;
+    margin-left: 17px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #999999;
+}
+
+.pomidorsRed {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 51px;
+    background-color: red;
+}
+
+.pomidorsWhite {
+    margin: 0;
+    padding: 0;
+    margin-top: 9px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.week {
+    position: relative;
+    grid-area: B;
+    background-color: #F4F4F4;
+}
+
+.weekLines {
+    position: absolute;
+}
+
+
+.weekLinesTime {
+    margin-top: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.weekLinesTime:first-child {
+    margin-top: 68px;
+}
+
+.weekLine {
+    width: 817px;
+}
+
+.weekTime {
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 33px;
+    color: #333333;
+}
+
+
+.weekDay {
+    margin: 0;
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.infoDesct {
+    margin: 0;
+    width: 205px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.time {
+    color: #DC3E22;
+}
+
+.weekLineDays {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 11px 189px 11px 79px;
+    background-color: #ECECEC;
+}
+
+.weekDays {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weekLineDay {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #999999;
+}
+
+.weekLineDayActive {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #DC3E22;
+}
+
+.weekColumnsContainer {
+    padding-left: 56px;
+    padding-right: 165px;
+    position: absolute;
+    width: 100%;
+    bottom: 51px;
+}
+
+.weekColumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.weekColumn {
+    width: 77px;
+    background-color: #C4C4C4;
+    height: 5px;
+}

@@ -1,0 +1,28 @@
+.dropdown {
+    position: absolute;
+    left: -71px;
+    top: 24px;
+    padding-left: 17px;
+    padding-right: 14px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+
+.dropdownItem {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdownItem:first-child {
+    margin-top: 20px;
+}
+
+.dropdownDescr {
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17px;
+    color: #999999;
+}
